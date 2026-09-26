@@ -80,7 +80,7 @@ git commit -m "feat: <descripción descriptiva del aporte>"
 ```
 
 Mensajes de Commit Requeridos por Integrante:
-- Integrante 1: feat: data model y ui state manager para SafePass
+- Integrante 1: ```feat: data model y ui state manager para SafePass```
 
 - Integrante 2: ```feat: logic validation and scope functions```
 
