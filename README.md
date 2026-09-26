@@ -38,24 +38,27 @@ com.example.safepass_2026
  │    └── Extensions.kt         <-- Extension Functions & Lambdas (Integrante 2)
  ├── ui.theme                   <-- Configuración de Estilo Material 3
  └── MainActivity.kt            <-- Interfaz con Jetpack Compose (Integrante 3)
+```
 
-
-### 🚀 3. Guía Paso a Paso para la Colaboración en el Equipo
+## 🚀 3. Guía Paso a Paso para la Colaboración en el Equipo
 Para garantizar un flujo de trabajo ordenado, evitar conflictos de fusión (merge conflicts) y mantener la trazabilidad requerida en el examen, el equipo utilizará el flujo de ramas (feature branches) y solicitudes de extracción (pull requests).
 
 Paso 3.1: Configuración de Colaboradores (Integrante 1 - Admin)
-Entrar al repositorio en GitHub: Settings ➔ Collaborators ➔ Add people.
+1. Entrar al repositorio en GitHub: Settings ➔ Collaborators ➔ Add people.
 
-Agregar las cuentas de GitHub de los Integrantes 2, 3 y 4 para otorgarles permisos de escritura.
+2. Agregar las cuentas de GitHub de los Integrantes 2, 3 y 4 para otorgarles permisos de escritura.
 
 Paso 3.2: Clonar el Repositorio (Integrantes 2, 3 y 4)
 No crear un proyecto desde cero. En Android Studio seleccionar:
+
 File ➔ New ➔ Project from Version Control... y pegar la URL del repositorio:
-https://github.com/tu_usuario/SafePass-2026.git
+
+```https://github.com/tu_usuario/SafePass-2026.git```
 
 Paso 3.3: Crear una Rama de Trabajo Local (Feature Branch)
 Antes de realizar cualquier cambio en el código, cada integrante debe abrir la Terminal en Android Studio y crear su propia rama:
 
+```text
 # Integrante 2 (Lógica y Validaciones):
 git checkout -b feature/logica-validacion
 
@@ -64,51 +67,55 @@ git checkout -b feature/ui-compose
 
 # Integrante 4 (DevOps & Documentación):
 git checkout -b feature/documentacion-informe
+```
 
 Paso 3.4: Registrar Cambios con Commits Estandarizados
 Guardar el progreso localmente asegurando el prefijo estandarizado feat: exigido por la rúbrica del examen:
 
+```text
 git add .
 git commit -m "feat: <descripción descriptiva del aporte>"
+```
 
 Mensajes de Commit Requeridos por Integrante:
-Integrante 1: feat: data model y ui state manager para SafePass
+- Integrante 1: feat: data model y ui state manager para SafePass
 
-Integrante 2: feat: logic validation and scope functions
+- Integrante 2: ```feat: logic validation and scope functions```
 
-Integrante 3: feat: ui state integration and compose views
+- Integrante 3: ```feat: ui state integration and compose views```
 
-Integrante 4: feat: documentation and project structure setup
+- Integrante 4: ```feat: documentation and project structure setup```
 
 Paso 3.5: Subir la Rama a GitHub y Crear Pull Request (PR)
 Una vez finalizados y probados los cambios en la máquina local:
 
-git push -u origin feature/nombre-de-tu-rama
+```git push -u origin feature/nombre-de-tu-rama```
 
-Abrir la página del repositorio en GitHub.
-
-Hacer clic en el botón emergente Compare & pull request.
-
-Agregar una breve descripción de los cambios realizados y confirmar el Merge a la rama main.
+1. Abrir la página del repositorio en GitHub.
+2. Hacer clic en el botón emergente Compare & pull request.
+3. Agregar una breve descripción de los cambios realizados y confirmar el Merge a la rama main.
 
 Paso 3.6: Sincronizar el Proyecto Local
 Antes de iniciar un nuevo bloque de trabajo, cada integrante debe actualizar su rama principal local con los avances del equipo:
 
+```
 git checkout main
 git pull origin main
+```
 
-📱 4. Entorno de Desarrollo y Requisitos
-IDE Recomendado: Android Studio Ladybug / Jellyfish o superior.
+### 📱 4. Entorno de Desarrollo y Requisitos
 
-Lenguaje: Kotlin 2.0.0.
+- IDE Recomendado: Android Studio Ladybug / Jellyfish o superior.
 
-JDK: JetBrains Runtime (JBR 21) embebido.
+- Lenguaje: Kotlin 2.0.0.
 
-Target SDK: API 36 (Android 16).
+- JDK: JetBrains Runtime (JBR 21) embebido.
 
-Emulador Recomendado: Pixel 8 (API 36).
+- Target SDK: API 36 (Android 16).
 
-📄 5. Licencia y Créditos
+- Emulador Recomendado: Pixel 8 (API 36).
+
+### 📄 5. Licencia y Créditos
 Desarrollado como parte del Examen Práctico RDA-1 de Programación Móvil.
 
 Docente: Juan Francisco Chafla, PhD.
