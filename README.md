@@ -40,6 +40,8 @@ com.example.safepass_2026
  └── MainActivity.kt            <-- Interfaz con Jetpack Compose (Integrante 3)
 ```
 
+---
+
 ## 🚀 3. Guía Paso a Paso para la Colaboración en el Equipo
 Para garantizar un flujo de trabajo ordenado, evitar conflictos de fusión (merge conflicts) y mantener la trazabilidad requerida en el examen, el equipo utilizará el flujo de ramas (feature branches) y solicitudes de extracción (pull requests).
 
@@ -103,7 +105,9 @@ git checkout main
 git pull origin main
 ```
 
-### 📱 4. Entorno de Desarrollo y Requisitos
+---
+
+## 📱 4. Entorno de Desarrollo y Requisitos
 
 - IDE Recomendado: Android Studio Ladybug / Jellyfish o superior.
 
@@ -115,7 +119,9 @@ git pull origin main
 
 - Emulador Recomendado: Pixel 8 (API 36).
 
-### 📄 5. Licencia y Créditos
+---
+
+## 📄 5. Licencia y Créditos
 Desarrollado como parte del Examen Práctico RDA-1 de Programación Móvil.
 
 Docente: Juan Francisco Chafla, PhD.
