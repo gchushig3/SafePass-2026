@@ -45,19 +45,19 @@ com.example.safepass_2026
 ## 🚀 3. Guía Paso a Paso para la Colaboración en el Equipo
 Para garantizar un flujo de trabajo ordenado, evitar conflictos de fusión (merge conflicts) y mantener la trazabilidad requerida en el examen, el equipo utilizará el flujo de ramas (feature branches) y solicitudes de extracción (pull requests).
 
-Paso 3.1: Configuración de Colaboradores (Integrante 1 - Admin)
+### Paso 3.1: Configuración de Colaboradores (Integrante 1 - Admin)
 1. Entrar al repositorio en GitHub: Settings ➔ Collaborators ➔ Add people.
 
 2. Agregar las cuentas de GitHub de los Integrantes 2, 3 y 4 para otorgarles permisos de escritura.
 
-Paso 3.2: Clonar el Repositorio (Integrantes 2, 3 y 4)
+### Paso 3.2: Clonar el Repositorio (Integrantes 2, 3 y 4)
 No crear un proyecto desde cero. En Android Studio seleccionar:
 
 File ➔ New ➔ Project from Version Control... y pegar la URL del repositorio:
 
 ```https://github.com/tu_usuario/SafePass-2026.git```
 
-Paso 3.3: Crear una Rama de Trabajo Local (Feature Branch)
+### Paso 3.3: Crear una Rama de Trabajo Local (Feature Branch)
 Antes de realizar cualquier cambio en el código, cada integrante debe abrir la Terminal en Android Studio y crear su propia rama:
 
 ```text
@@ -71,7 +71,7 @@ git checkout -b feature/ui-compose
 git checkout -b feature/documentacion-informe
 ```
 
-Paso 3.4: Registrar Cambios con Commits Estandarizados
+### Paso 3.4: Registrar Cambios con Commits Estandarizados
 Guardar el progreso localmente asegurando el prefijo estandarizado feat: exigido por la rúbrica del examen:
 
 ```text
@@ -88,7 +88,7 @@ Mensajes de Commit Requeridos por Integrante:
 
 - Integrante 4: ```feat: documentation and project structure setup```
 
-Paso 3.5: Subir la Rama a GitHub y Crear Pull Request (PR)
+### Paso 3.5: Subir la Rama a GitHub y Crear Pull Request (PR)
 Una vez finalizados y probados los cambios en la máquina local:
 
 ```git push -u origin feature/nombre-de-tu-rama```
@@ -97,7 +97,7 @@ Una vez finalizados y probados los cambios en la máquina local:
 2. Hacer clic en el botón emergente Compare & pull request.
 3. Agregar una breve descripción de los cambios realizados y confirmar el Merge a la rama main.
 
-Paso 3.6: Sincronizar el Proyecto Local
+### Paso 3.6: Sincronizar el Proyecto Local
 Antes de iniciar un nuevo bloque de trabajo, cada integrante debe actualizar su rama principal local con los avances del equipo:
 
 ```
